@@ -1,7 +1,7 @@
 # Smart-Parking-System-Arduino-RFID
 An automated parking management system built with Arduino Uno, utilizing RFID (Fast Tag) for access control and IR sensors for real-time parking slot availability.  README.md
 
-#Overview
+# Overview
 This project aims to improve parking lot management through an automated system that streamlines the entry and exit of vehicles. The system scans RFID tags to verify user access, ensuring only authorized vehicles can enter reserved spaces. Once an RFID tag is validated, the system checks for available parking spaces using IR sensors. If a free space is available, the servo-controlled gate mechanism activates and the available slot is displayed on an LCD. If the parking lot is full or the RFID tag is invalid, the gate remains closed and an access denied message is displayed.
 #Features
 Reduces parking search time by displaying available slots at the entrance
